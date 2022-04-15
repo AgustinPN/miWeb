@@ -1,5 +1,71 @@
 *{
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img/approach-5159905.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: rgba(211, 191, 191, 0.63);
+    text-align: center;
+    padding-top: 2rem;
+}
+
+header {
+    background: linear-gradient(to right, #000000, #434343);
+    width: 100%;
+    height: 8rem;
+}
+
+nav {
+    text-align: right;
+}
+nav a{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: wheat;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline;
+}
+nav a:hover {
+    background-color: #000000;
+}
+
+.tarjeta {
+    width: 40rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 3rem auto;
+}
+
+.tarjeta h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    color: wheat;
+}
+
+.formulario .elemento label{
+    color: wheat;
+    font-size: 1.2rem;
+}
+.formulario .elemento input {
+    width: 100%;
+    padding: .4rem;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+    background-color: #43434381;
+    border: none;
+    border-bottom: 1px solid rgba(245, 222, 179, 0.336);
 }
