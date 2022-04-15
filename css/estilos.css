@@ -91,6 +91,39 @@ nav a:hover {
     width: 10%;
 }
 
-.formulario .elemento label .checkbox{
-    margin-top: 100px;
+.label-check {
+    margin-top: 1.2rem;
+}
+
+footer{
+    background: linear-gradient(to right, #000000, #434343);
+    padding: 2rem 0 0 0;
+    margin: auto;
+    height: 5rem;
+}
+
+.contenedor-footer {
+    font-size: 1.1em;
+    color: wheat;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+.elemento-footer a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.elemento-footer a:hover {
+    color: black;
+    font-weight: bolder;
 }
