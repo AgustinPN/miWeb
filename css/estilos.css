@@ -69,3 +69,27 @@ nav a:hover {
     border: none;
     border-bottom: 1px solid rgba(245, 222, 179, 0.336);
 }
+
+.formulario .elemento input[type="submit"]{
+    background-color: wheat;
+    border-bottom: none;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 50rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: .5rem;
+}
+
+.formulario .elemento input:hover[type="submit"]{
+    background-color: #434343;
+}
+
+.formulario .elemento input[type="checkbox"]{
+    width: 10%;
+}
+
+.formulario .elemento label .checkbox{
+    margin-top: 100px;
+}
