@@ -181,11 +181,6 @@ footer p{
     color: black;
 }
 
-/*.container-fluid {
-    height: 90%;
-    width: 100%;
-  }*/
-  
 /*---Carousel---*/
 
  .carousel-inner img {
@@ -205,64 +200,29 @@ footer p{
     }
 
 
+@media screen and (min-width: 250px) {
+    
+    /*Menú navegación*/
 
-@media (min-width:768px) {
+nav a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}   
 
+/*---carousel---*/
+.carousel {
+    max-width: 29em;
 }
 
-@media (min-width:576px) {
+/*----Pagina Contacto----*/
 
-    /*carousel*/
-    .carousel {
-      max-width: 33em;
-      max-height: 300px;
-      margin: 0 auto;
-  }
-
-  /*CONTACTO*/
-  .tarjeta-texto{
-    width: 30rem;
-    height: 25rem;
-    padding: 1rem;
+.tarjeta {
+    width: 28rem;
+    height: 20rem;
+    padding: 1.8rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 7rem auto;
 }
 
-#etiqueta-mensaje {
-    color: wheat;
-    font-size: 1.2rem;
-    margin-top: .5rem;
-}
-
-#submit {
-    margin-top: 2rem;
-}
-}
-
-@media (max-width:320px) {
-    body{
-        min-width: 109vh;
-    }
-
-        /*carousel*/
-        .carousel {
-            max-width: 33em;
-            max-height: 300px;
-            margin: 0 auto;
-        }
-
-      /*CONTACTO*/
-  .tarjeta-texto{
-    width: 30rem;
-    height: 25rem;
-    padding: 1rem;
-}
-
-#etiqueta-mensaje {
-    color: wheat;
-    font-size: 1.2rem;
-    margin-top: .5rem;
-}
-
-#submit {
-    margin-top: 2rem;
-}
 }
