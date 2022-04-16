@@ -42,17 +42,18 @@ nav a:hover {
 }
 
 .tarjeta {
-    width: 40rem;
-    padding: 2rem;
+    width: 30rem;
+    height: 20rem;
+    padding: 1.8rem;
     border-radius: 2rem;
     background-color: rgba(0, 0, 0, 0.76);
-    margin: 3rem auto;
+    margin: 7rem auto;
 }
 
 .tarjeta h2 {
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0rem;
     padding: 0;
     color: wheat;
 }
@@ -60,12 +61,13 @@ nav a:hover {
 .formulario .elemento label{
     color: wheat;
     font-size: 1.2rem;
+    margin-bottom: .3rem;
 }
 .formulario .elemento input {
     width: 100%;
-    padding: .4rem;
-    margin-top: .3rem;
-    margin-bottom: 1rem;
+    padding: .2rem;
+    margin-top: rem;
+    margin-bottom: rem;
     background-color: #43434381;
     border: none;
     border-bottom: 1px solid rgba(245, 222, 179, 0.336);
@@ -80,7 +82,7 @@ nav a:hover {
     border-radius: 50rem;
     text-transform: uppercase;
     cursor: pointer;
-    padding: .5rem;
+    padding: .2rem;
 }
 
 .formulario .elemento input:hover[type="submit"]{
@@ -99,11 +101,13 @@ footer{
     background: linear-gradient(to right, #000000, #434343);
     padding: 2rem 0 0 0;
     margin: auto;
+    margin-top: 10rem;
     height: 5rem;
 }
 
 .contenedor-footer {
     font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
     color: wheat;
     display: flex;
     width: 100%;
@@ -125,5 +129,25 @@ footer p{
 
 .elemento-footer a:hover {
     color: black;
-    font-weight: bolder;
 }
+
+/*.container-fluid {
+    height: 90%;
+    width: 100%;
+  }*/
+  
+ .carousel-inner img {
+    height: 16em;
+    border-radius: 1.5em;
+  }
+  .carousel {
+      max-width: 40em;
+      max-height: 300px;
+      margin: 0 auto;
+  }
+
+  .texto-carousel {
+      color: wheat;
+      font-weight: bolder;
+      text-shadow: 1px 1px 2px black;
+    }
