@@ -101,6 +101,38 @@ nav a:hover {
     margin-top: 1.2rem;
 }
 
+#submit {
+    margin-top: 4rem;
+}
+
+.tarjeta-texto{
+    width: 40rem;
+    height: 30rem;
+    padding: 1.8rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 7rem auto;
+    color: wheat;
+}
+
+.contacto-titulo {
+    text-align: center;
+}
+
+#texto {
+    color: wheat;
+    background-color: #43434381;
+    width: 100%;
+    margin-top: 0;
+    padding: .5em;
+}
+
+#etiqueta-mensaje {
+    color: wheat;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
 footer{
     background: linear-gradient(to right, #000000, #434343);
     padding: 1.3rem 0 0 1rem;

@@ -12,7 +12,7 @@
 <body>
     <header>
 
-        <h1 id="titulo">Meteorología</h1>
+        <h1 id="titulo">Contacto</h1>
         <nav>
                 <a href="./index.html">Ingresar</a>
                 <a href="./meteorologia.html">Meteorología</a>
@@ -21,7 +21,25 @@
         </nav>
     </header>
     <main>
+      <div class="tarjeta-texto"> 
+        <h2 class="contacto-titulo">Contacto</h2>
+        
+        <form class="formulario" method="post">
+            <div class="elemento">
+                <label for="email">Ingresa tu email</label>
+                <input type="email" id="email" name="email" minlength="15" maxlength="35" required>
+            </div>
 
+            <div class="elemento">
+                <label id="etiqueta-mensaje" for="password">Mensaje</label>
+                <textarea name="texto" id="texto" cols="30" rows="5" minlength="30" maxlength="400"></textarea>
+            </div>
+
+            <div class="elemento">
+                <input id="submit" type="submit" value="Enviar mensaje">
+            </div>
+        </form>
+    </div>
     </main>
     <footer>
         <div class="contenedor-footer">
