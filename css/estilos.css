@@ -197,3 +197,65 @@ footer p{
       font-weight: bolder;
       text-shadow: 1px 1px 2px black;
     }
+
+
+/*-----------------Responsive---------------
+
+    
+    @media (max-width:900px) {
+    
+        /*Menú navegación*/
+    
+        nav a{
+            padding-left: 1rem;
+            color: wheat;
+            text-decoration: none;
+            font-size: 1.2rem;
+            display: inline;
+        }
+        
+        /*Carousel*/
+    
+        .carousel {
+            max-width: 25em;
+            max-height: 300px;
+            margin: 0 auto;
+        }
+    
+        /*.texto-carousel {
+            color: wheat;
+            font-weight: bolder;
+            font-size: smaller;
+            text-shadow: 1px 1px 2px black;
+          }*/
+        
+    
+        /*Footer*/
+    
+        .contenedor-footer {
+        font-size: 1em;
+        font-family: 'Courier New', Courier, monospace;
+        color: wheat;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        }
+    
+        /*Tarjeta*/
+    
+        .tarjeta {
+            width: 25rem;
+            height: 18rem;
+            padding: 1rem;
+            border-radius: 2rem;
+            background-color: rgba(0, 0, 0, 0.76);
+            margin: 7rem auto;
+        }
+    
+        .tarjeta-texto{
+            width: 25rem;
+            height: 26rem;
+            padding: 1rem;
